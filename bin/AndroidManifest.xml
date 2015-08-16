@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.osheen.crosseye"
+    android:versionCode="2"
+    android:versionName="2.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.osheen.crosseye.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.osheen.crosseye.Howtouse"
+            android:label="@string/title_activity_howtouse" >
+        </activity>
+        <activity
+            android:name="com.osheen.crosseye.Play"
+            android:label="@string/title_activity_play" >
+        </activity>
+        <activity
+            android:name="com.osheen.crosseye.Sample"
+            android:label="@string/title_activity_sample" >
+        </activity>
+        <activity
+            android:name="com.osheen.crosseye.FileSelect"
+            android:label="@string/title_activity_file_select" >
+        </activity>
+        <activity
+            android:name="com.osheen.crosseye.About"
+            android:label="@string/title_activity_about" >
+        </activity>
+    </application>
+
+</manifest>

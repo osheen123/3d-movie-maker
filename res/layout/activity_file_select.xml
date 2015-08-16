@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".FileSelect" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="40dp"
+        android:text="SET PATH FOR LEFT FILE"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="55dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="HINT : Use ES FILE EXPLORER if default is not working"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/butt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_marginTop="20dp"
+        android:textColor="#FFFFFF"
+        android:layout_below="@+id/textView1"
+        android:text="SELECT A VIDEO" />
+
+    <Button
+        android:id="@+id/butt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="#FFFFFF"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_below="@+id/textView2"
+       android:text="SELECT A VIDEO" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/butt1"
+        android:layout_below="@+id/butt1"
+        android:layout_marginTop="20dp"
+        android:text="SET PATH FOR RIGHT FILE"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/bu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="32dp"
+        android:text="SAVE"
+        android:textColor="#FFFFFF" />
+
+</RelativeLayout>
